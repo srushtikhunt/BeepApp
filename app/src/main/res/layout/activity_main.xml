@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.androidtonegenerator.MainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autoLink="web"
+        android:text="@string/http_android_er_blogspot"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/gentone0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/generate_tone_tone_dtmf" />
+
+    <ToggleButton
+        android:id="@+id/gentone1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textOn="@string/stop_tone_tone_dtmf"
+        android:textOff="@string/start_tone_tone_dtmf" />
+</LinearLayout>
